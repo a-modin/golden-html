@@ -99,3 +99,53 @@ p {
   color: #777777;
   right: 20px;
 }
+.amazing .item {
+  margin-top: 70px;
+}
+.amazing h3 {
+  font-size: 17px;
+  text-align: center;
+}
+.amazing p {
+  text-align: center;
+  font-style: italic;
+  font-size: 14px;
+  color: #777777;
+  right: 20px;
+}
+.amazing .black-circle {
+  margin: auto;
+  width: 220px;
+  height: 220px;
+  background: #000000;
+  -moz-border-radius: 110px;
+  -webkit-border-radius: 110px;
+  border-radius: 110px;
+}
+.amazing .social {
+  height: 40px;
+  width: 150px;
+  margin: auto;
+}
+.amazing .social .icon {
+  width: 40px;
+  height: 40px;
+  background-image: url('../img/social.png');
+  float: left;
+  margin: 5px;
+}
+.amazing .social .icon:hover {
+  background-image: url('../img/social-hover.png');
+}
+.twitter {
+  background-position: 0;
+}
+.facebook {
+  background-position: -40px;
+}
+.pinterest {
+  background-position: -80px;
+}
+.google {
+  background-position: -120px;
+}
