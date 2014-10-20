@@ -1,25 +1,36 @@
-@media screen and (max-width: 1060px) {
-  .main {
-    background-size: auto;
+@media screen and (max-width: 480px) {
+  .hello {
+    margin-top: 50px !important;
+  }
+  .hello h1,
+  .hello h2 {
+    text-align: center;
+  }
+  .hello h1 {
+    font-size: 23px !important;
+    font-style: italic;
+  }
+  .hello h2 {
+    text-transform: uppercase;
+    font-size: 30px !important;
+    margin-top: 20px !important;
+  }
+  .hello .btn {
+    margin-top: 20px !important;
   }
 }
-@media screen and (max-width: 600px) {
-  .main {
-    background-position: -500px;
+@media screen and (max-width: 1060px) {
+  .text-align-left,
+  .text-align-right {
+    left: 0 !important;
+    text-align: center !important;
   }
-  .arneevo-main-logo {
-    width: 100px !important;
+}
+@media screen and (max-width: 1020px) {
+  .copyright {
+    text-align: center;
   }
-  .arneevo-main-logo img {
-    width: 100px;
-  }
-  .main-h {
-    top: 15%;
-  }
-  .main-h h1 {
-    font-size: 27px !important;
-  }
-  .main-h h2 {
-    font-size: 14px !important;
+  .contacts-wrapper {
+    height: auto !important;
   }
 }
