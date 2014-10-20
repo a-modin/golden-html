@@ -149,3 +149,11 @@ p {
 .google {
   background-position: -120px;
 }
+.logos .logos-container {
+  margin: 50px 50px;
+}
+.logos .logos-container .logo-div {
+  width: 25%;
+  height: 30px;
+  float: left;
+}
