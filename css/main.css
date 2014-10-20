@@ -10,16 +10,22 @@ h1 {
   font-size: 30px;
 }
 h2 {
-  font-size: 37px;
+  font-size: 35px;
 }
 h3 {
   font-size: 19px;
 }
 p {
-  font-size: 17px;
+  font-size: 14px;
 }
 .margin {
   height: 100px;
+}
+.back-grey {
+  background-color: #f5f5f5;
+}
+.back-white {
+  background-color: #ffffff;
 }
 .main {
   background-image: url('../img/main-back.jpg');
@@ -27,9 +33,16 @@ p {
   height: 100%;
   background-repeat: no-repeat;
 }
-.services,
-.portfolio {
-  padding-top: 90px;
+.text-align-right {
+  text-align: right !important;
+  left: 40px;
+}
+.text-align-left {
+  text-align: left !important;
+  right: 40px;
+}
+.relative {
+  position: relative;
 }
 .services h3,
 .portfolio h3 {
@@ -45,10 +58,13 @@ p {
   display: block;
   margin: auto;
 }
+.container-head {
+  margin-top: 80px;
+}
 .container-head h2 {
   text-align: center;
   text-transform: uppercase;
-  font-size: 40px;
+  font-size: 38px;
 }
 .container-head p {
   text-align: center;
@@ -70,9 +86,16 @@ p {
 .portfolio .caption {
   padding: 15px;
 }
-.back-grey {
-  background-color: #f5f5f5;
+.about-us .item {
+  margin-top: 50px;
 }
-.back-white {
-  background-color: #ffffff;
+.about-us img {
+  display: block;
+  margin: 20px auto;
+}
+.about-us p {
+  font-style: italic;
+  font-size: 14px;
+  color: #777777;
+  right: 20px;
 }

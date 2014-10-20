@@ -20,7 +20,7 @@ h1{
 }
 
 h2{
-	font-size: 37px;
+	font-size: 35px;
 }
 
 h3{
@@ -28,11 +28,21 @@ h3{
 }
 
 p{
-	font-size: 17px;
+	font-size: 14px;
 }
 
+
+//Вспомогательные классы
 .margin{
 	height: 100px;
+}
+
+.back-grey{
+	background-color: darken(@mainColor1, 4%)
+}
+
+.back-white{
+	background-color: @mainColor1;
 }
 
 .main{
@@ -42,9 +52,21 @@ p{
 	background-repeat: no-repeat;
 }
 
+.text-align-right{
+	text-align: right !important;
+	left: 40px;
+}
 
+.text-align-left{
+	text-align: left !important;
+	right: 40px;
+}
+
+.relative{
+	position: relative;
+}
+//Контейнеры
 .services, .portfolio{
-	padding-top: 90px;
 
 
 	h3{
@@ -53,7 +75,6 @@ p{
 
 	p{
 		text-align: center;
-
 		font-size: 14px;
 	}
 
@@ -64,10 +85,12 @@ p{
 }
 
 .container-head{
+	margin-top: 80px;
+
 	h2{
 		text-align: center;
 		text-transform: uppercase;
-		font-size: 40px;
+		font-size: 38px;
 	}
 
 	p{
@@ -78,6 +101,7 @@ p{
 	}
 }
 
+//Services
 .services{
 	.item{
 		margin: 60px auto;
@@ -85,6 +109,7 @@ p{
 	}
 }
 
+//Portfolio
 .portfolio{
 	.item{
 		background-color: @mainColor1;
@@ -100,10 +125,26 @@ p{
 	}
 }
 
-.back-grey{
-	background-color: darken(@mainColor1, 4%)
+//About Us
+.about-us{
+
+	.item{
+		margin-top: 50px;
+	}
+
+	img{
+		display: block;
+		margin: 20px auto;
+	}
+
+	p{
+		font-style: italic;
+		font-size: 14px;
+		color: #777777;
+		right: 20px;
+	}
 }
 
-.back-white{
-	background-color: @mainColor1;
-}
+
+
+
