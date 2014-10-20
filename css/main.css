@@ -18,6 +18,21 @@ h3 {
 p {
   font-size: 14px;
 }
+.btn {
+  margin: 40px auto;
+  display: block;
+  width: 240px;
+  height: 65px;
+  background-color: #fed136;
+  border: none;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 17px;
+}
+.btn:hover {
+  background-color: #000000;
+  color: #ffffff !important;
+}
 .margin {
   height: 100px;
 }
@@ -26,12 +41,6 @@ p {
 }
 .back-white {
   background-color: #ffffff;
-}
-.main {
-  background-image: url('../img/main-back.jpg');
-  background-size: 100%;
-  height: 100%;
-  background-repeat: no-repeat;
 }
 .text-align-right {
   text-align: right !important;
@@ -43,6 +52,50 @@ p {
 }
 .relative {
   position: relative;
+}
+.main-wrapper {
+  width: 100%;
+  height: 100%;
+  background-color: #222222;
+  background: url('../img/main-back.jpg') no-repeat;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.main .navigation {
+  float: right;
+}
+.main .navigation ul {
+  list-style: none;
+}
+.main .navigation ul li {
+  text-transform: uppercase;
+  float: left;
+  margin: 45px 20px;
+}
+.main .navigation ul li a {
+  color: #ffffff;
+  display: block;
+}
+.main .hello {
+  margin-top: 150px;
+}
+.main .hello h1,
+.main .hello h2 {
+  text-align: center;
+  color: #ffffff;
+}
+.main .hello h1 {
+  font-size: 38px;
+  font-style: italic;
+}
+.main .hello h2 {
+  text-transform: uppercase;
+  font-size: 70px;
+  margin-top: 25px;
+}
+.main .logo {
+  margin-top: 35px;
 }
 .services h3,
 .portfolio h3 {
@@ -165,27 +218,27 @@ p {
   background-repeat: no-repeat;
   background-size: 100%;
 }
-.footer .form-wrapper {
+.contacts .form-wrapper {
   margin-top: 30px;
 }
-.footer .container-head {
+.contacts .container-head {
   margin-top: 0px;
 }
-.footer .container-head h2 {
+.contacts .container-head h2 {
   color: #ffffff;
 }
-.footer input {
+.contacts input {
   width: 100%;
   height: 50px;
   margin-top: 29px;
 }
-.footer textarea {
+.contacts textarea {
   width: 100%;
   margin-top: 28px;
   height: 210px;
 }
-.footer button {
-  margin: 30px auto;
+.contacts button {
+  margin: 40px auto;
   display: block;
   width: 240px;
   height: 65px;
@@ -194,4 +247,32 @@ p {
   color: #ffffff;
   text-transform: uppercase;
   font-size: 17px;
+}
+.contacts button:hover {
+  background-color: #000000;
+}
+.footer {
+  width: 100%;
+  height: 90px;
+  background-color: #ffffff;
+}
+.footer p {
+  font-size: 14px;
+  color: #777777;
+  margin-top: 36px;
+}
+.footer .social {
+  height: 40px;
+  width: 200px;
+  margin: 20px auto;
+}
+.footer .social .icon {
+  width: 40px;
+  height: 40px;
+  background-image: url('../img/social2.png');
+  float: left;
+  margin: 5px;
+}
+.footer .social .icon:hover {
+  background-image: url('../img/social-hover.png');
 }
