@@ -157,3 +157,41 @@ p {
   height: 30px;
   float: left;
 }
+.contacts-wrapper {
+  width: 100%;
+  height: 100%;
+  background-color: #222222;
+  background-image: url('../img/contacts-back.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.footer .form-wrapper {
+  margin-top: 30px;
+}
+.footer .container-head {
+  margin-top: 0px;
+}
+.footer .container-head h2 {
+  color: #ffffff;
+}
+.footer input {
+  width: 100%;
+  height: 50px;
+  margin-top: 29px;
+}
+.footer textarea {
+  width: 100%;
+  margin-top: 28px;
+  height: 210px;
+}
+.footer button {
+  margin: 30px auto;
+  display: block;
+  width: 240px;
+  height: 65px;
+  background-color: #fed136;
+  border: none;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 17px;
+}

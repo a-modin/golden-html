@@ -1,10 +1,14 @@
 // GLOBAL VARIABLES
 @mainColor1: #fff;
 @mainColor2: #000;
+@mainColor3: #fed136;
+
+@contactBackColor: #222222;
 
 @fontSize1: 30px;
 @fontSize2: 26px;
 @fontSize3: 15px;
+
 
 *{
 	margin: 0;
@@ -212,3 +216,49 @@ p{
 	}
 }
 
+//contacts
+.contacts-wrapper{
+	width: 100%;
+	height: 100%;
+	background-color: @contactBackColor;
+	background-image: url('../img/contacts-back.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.footer{
+	.form-wrapper{
+		margin-top: 30px;
+	}
+	.container-head{
+		margin-top: 0px;
+
+		h2{
+			color: @mainColor1;
+		}
+	}
+
+	input{
+		width: 100%;
+		height: 50px;
+		margin-top: 29px;
+	}
+
+	textarea{
+		width: 100%;
+		margin-top: 28px;
+		height: 210px;
+	}
+
+	button{
+		margin: 30px auto;
+		display: block;
+		width: 240px;
+		height: 65px;
+		background-color: @mainColor3;
+		border: none;
+		color: @mainColor1;
+		text-transform: uppercase;
+		font-size: 17px;
+	}
+}
